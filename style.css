@@ -30,7 +30,7 @@ section {
 
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(97, 134, 72);
     text-align: center;
     padding: 10px 0;
 }
@@ -38,7 +38,7 @@ footer {
 #banner {
     background-image: url('campo-cidade.jpg'); /* Imagem de fundo do banner */
     background-size: cover;
-    color: white;
+    color: rgb(82, 126, 76);
     text-align: center;
     padding: 100px 0;
 }
