@@ -1,92 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venda de Casas</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Agrinho do Campo à Cidade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header style="background-color: #2ecc71;">
         <div class="container">
-            <h1>Venda de Casas</h1>
+            <h1>Agrinho do Campo à Cidade</h1>
             <nav>
                 <ul>
-                    <li><a href="#casas">Nossas Casas</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#campo">Do Campo</a></li>
+                    <li><a href="#cidade">À Cidade</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="banner">
+    <section id="campo">
         <div class="container">
-            <h2>Bem-vindo à nossa plataforma de venda de casas!</h2>
-            <p>Encontre sua casa dos sonhos conosco.</p>
+            <h2>Do Campo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget odio vel quam ultricies volutpat. Nulla facilisi.</p>
+            <img src="img/campo.jpg" alt="Campo">
         </div>
     </section>
 
-    <section id="casas">
+    <section id="cidade">
         <div class="container">
-            <h2>Nossas Casas</h2>
-            <div class="card-container">
-                <!-- Card 1 -->
-                <div class="card">
-                    <img src="casa1.jpg" alt="Casa 1">
-                    <div class="card-details">
-                        <h3>Casa Espaçosa</h3>
-                        <p>Localizada em um bairro tranquilo, esta casa espaçosa possui 4 quartos, 3 banheiros e uma ampla área de lazer.</p>
-                        <span class="price">R$ 1.200.000</span>
-                        <a href="casa1.html" class="btn">Ver Detalhes</a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="card">
-                    <img src="casa2.jpg" alt="Casa 2">
-                    <div class="card-details">
-                        <h3>Casa Moderna</h3>
-                        <p>Uma casa contemporânea com design minimalista, perfeita para quem busca sofisticação e conforto.</p>
-                        <span class="price">R$ 950.000</span>
-                        <a href="casa2.html" class="btn">Ver Detalhes</a>
-                    </div>
-                </div>
-
-                <!-- Adicione mais cards conforme necessário -->
-            </div>
+            <h2>À Cidade</h2>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img src="img/cidade.jpg" alt="Cidade">
         </div>
     </section>
 
-    <section id="sobre">
+    <footer style="background-color: #34495e; color: #fff;">
         <div class="container">
-            <h2>Sobre Nós</h2>
-            <p>Somos especializados na venda de casas de luxo e propriedades exclusivas. Nosso objetivo é encontrar a casa perfeita para você e sua família.</p>
-        </div>
-    </section>
-
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para mais informações ou para agendar uma visita às propriedades disponíveis.</p>
-            <form action="submit-form.php" method="POST">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Venda de Casas. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Agrinho do Campo à Cidade</p>
         </div>
     </footer>
-
 </body>
 </html>
 
