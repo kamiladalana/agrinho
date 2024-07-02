@@ -1,4 +1,4 @@
-/* Reset de estilos */
+/* Reset de estilos básico */
 * {
     margin: 0;
     padding: 0;
@@ -6,78 +6,60 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #333;
     color: #fff;
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem 0;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2rem;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.properties {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #3498db;
-}
-
-section {
+.property {
     background-color: #fff;
-    margin: 30px 0;
-    padding: 40px 0;
-    text-align: center;
+    padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #2c3e50;
-    font-size: 2em;
-    margin-bottom: 20px;
+.property img { \casa1.jpg
+    width: 100%;
+    border-radius: 5px;
 }
 
-section p {
-    font-size: 1.1em;
-    color: #555;
+.property h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.property p {
+    margin-bottom: 0.5rem;
 }
 
 footer {
-    background-color: #34495e;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
 }
 
 
