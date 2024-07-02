@@ -8,70 +8,84 @@
 </head>
 <body>
     <header>
-        <h1>Venda de Casas</h1>
-        <nav>
-            <ul>
-                <li><a href="#casas">Nossas Casas</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Venda de Casas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#casas">Nossas Casas</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="banner">
-        <h2>Bem-vindo à nossa plataforma de venda de casas!</h2>
-        <p>Encontre sua casa dos sonhos conosco.</p>
+        <div class="container">
+            <h2>Bem-vindo à nossa plataforma de venda de casas!</h2>
+            <p>Encontre sua casa dos sonhos conosco.</p>
+        </div>
     </section>
 
     <section id="casas">
-        <h2>Nossas Casas</h2>
-        <div class="grid-container">
-            <!-- Aqui vão os cards de cada casa -->
-            <div class="card">
-                <img src="\casa1.jpg" alt="Casa 1">
-                <div class="card-text">
-                    <h3>Casa Espaçosa</h3>
-                    <p>Descrição breve da casa. Localização, características principais, etc.</p>
-                    <a href="\casa1.jpg">Ver mais</a>
+        <div class="container">
+            <h2>Nossas Casas</h2>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="casa1.jpg" alt="Casa 1">
+                    <div class="card-details">
+                        <h3>Casa Espaçosa</h3>
+                        <p>Localizada em um bairro tranquilo, esta casa espaçosa possui 4 quartos, 3 banheiros e uma ampla área de lazer.</p>
+                        <span class="price">R$ 1.200.000</span>
+                        <a href="casa1.html" class="btn">Ver Detalhes</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card">
-                <img src="casa2.jpg" alt="Casa 2">
-                <div class="card-text">
-                    <h3>Casa Moderna</h3>
-                    <p>Descrição breve da casa. Localização, características principais, etc.</p>
-                    <a href="casa2.html">Ver mais</a>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="casa2.jpg" alt="Casa 2">
+                    <div class="card-details">
+                        <h3>Casa Moderna</h3>
+                        <p>Uma casa contemporânea com design minimalista, perfeita para quem busca sofisticação e conforto.</p>
+                        <span class="price">R$ 950.000</span>
+                        <a href="casa2.html" class="btn">Ver Detalhes</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Adicionar mais cards conforme necessário -->
+                <!-- Adicione mais cards conforme necessário -->
+            </div>
         </div>
     </section>
 
     <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Somos especializados na venda de casas de luxo e propriedades exclusivas. Nosso objetivo é encontrar a casa perfeita para você e sua família.</p>
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos especializados na venda de casas de luxo e propriedades exclusivas. Nosso objetivo é encontrar a casa perfeita para você e sua família.</p>
+        </div>
     </section>
 
     <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para mais informações ou para agendar uma visita às propriedades disponíveis.</p>
-        <form action="submit-form.php" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações ou para agendar uma visita às propriedades disponíveis.</p>
+            <form action="submit-form.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Venda de Casas. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 Venda de Casas. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
 </html>
-
