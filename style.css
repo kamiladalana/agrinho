@@ -1,54 +1,65 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 1em;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-main {
-    padding: 2em;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 section {
-    margin-bottom: 2em;
+    padding: 40px 0;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label, form input, form textarea, form button {
-    margin-bottom: 0.5em;
+section h2 {
+    text-align: center;
 }
 
 footer {
-    background-color: #4CAF50;
-    color: rgb(43, 95, 38);
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
+    padding: 10px 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
